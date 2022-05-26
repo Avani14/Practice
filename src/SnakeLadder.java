@@ -40,8 +40,6 @@ public class SnakeLadder {
 	public static void main(String[] args) {
 		System.out.println("Current position of player : "+CheckOption.positionOf1);
 		System.out.println("You got ... "+RollTheDice.rollDice());
-		while(CheckOption.positionOf1<100) {
 		CheckOption.checkOpt();
-		}
 	}
 }
